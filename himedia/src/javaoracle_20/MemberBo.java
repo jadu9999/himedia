@@ -1,0 +1,26 @@
+package javaoracle_20;
+
+public class MemberBo {
+	private String empno;
+	private String ename;
+	private int sal;
+	
+	public MemberBo() {
+
+}
+	public MemberBo(String empno, String ename, int sal) {
+		this.empno = empno;
+		this.ename = ename;
+		this.sal = sal;
+	}
+	
+	public String getEmpno() {
+		return empno;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public int getSal() {
+		return sal;
+	}
+}
